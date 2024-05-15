@@ -23,5 +23,9 @@ yarn => 1.22.22
 -   for setup tailwind, postcss, autoprefixer for the styling
 
 -   direct commands:-
-    > npm install -D tailwindcss postcss autoprefixer
+    > npm install -D tailwindcss postcss autoprefixer;
     > npx tailwindcss init -p
+    > add these in main styles.css file:
+        -   @tailwind base;
+        -   @tailwind components;
+        -   @tailwind utilities;
